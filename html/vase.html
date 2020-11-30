@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vastra 3D</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/bootstrap4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/sidenav.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/aos.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
+        body {
+            background-color: #f4f2ef;
+        }
+
+        .fa-facebook-official,
+        .fa-linkedin,
+        .fa-instagram {
+            font-size: 50px;
+            padding: 0 .8rem;
+        }
+
+        .box {
+            position: relative;
+        }
+        .top-right {
+            position: absolute;
+            top: 10%;
+            right: 5%;
+            width: 40%;
+        }
+        .top-right-tab {
+            position: absolute;
+            top: 4%;
+            right: 5%;
+            width: 40%;
+        }
+        .top-right-big {
+            position: absolute;
+            top: 11%;
+            right: 5%;
+            width: 48%;
+        }
+        .box-small {
+            position: relative;
+        }
+        .top-bottom-small {
+            position: absolute;
+            top: 68%;
+            left: 10%;
+            width: 80%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="footwear.html">Footwear</a>
+        <a href="eyewear.html">Eyewear</a>
+        <a href="cloths.html">Clothing</a>
+        <a href="acessories.html">Acessories</a>
+        <a href="interior-design.html">Interior Design</a>
+        <br>
+        <a href="#">Contact Us</a>
+        <a href="#">About Us</a>
+    </div>
+    <div class="menu">
+        <span style="font-size:30px;cursor:pointer;" onclick="openNav()"><img
+                src="https://img.icons8.com/ios-glyphs/48/000000/squared-menu.png" /></span>
+    </div>
+    <div class="logo">
+        <a href="../index.html"><img src="/images/Vastra .png" alt="" width="70px" height="60px"></a>
+    </div>
+    <section class=" ly-hide-small">
+        <div class="ly-image">
+            <img src="/images/interior design/vase/1.png" alt="" width="100%" height="auto">
+        </div>
+        <div>
+            <div class="box">
+                <img src="/images/interior design/vase/2.png" alt="" width="100%" height="auto">
+                <div class="top-right-big ly-hide-medium ly-hide-large" data-aos="fade-left">
+                    <h1
+                        style="font-size: 70px;font-weight: 400;letter-spacing: 3px;color: #414141;font-family:DM Serif Text;text-align: left;">
+                        Space Redefined
+                    </h1>
+                    <p class="ly-justify ly-xxlarge">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dignissimos ipsa eum impedit
+                        expedita veritatis nulla adipisci temporibus perferendis et corporis aut, ad fugiat, harum
+                        suscipit accusantium sequi blanditiis. Voluptas!</p>
+                </div>
+                <div class="top-right ly-hide-medium ly-hide-xlarge" data-aos="fade-left">
+                    <h1
+                        style="font-size: 60px;font-weight: 400;letter-spacing: 3px;color: #414141;font-family:DM Serif Text;text-align: left;">
+                        Space Redefined
+                    </h1>
+                    <p class="ly-justify ly-xlarge">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dignissimos ipsa eum impedit
+                        expedita veritatis nulla adipisci temporibus perferendis et corporis aut, ad fugiat, harum
+                        suscipit accusantium sequi blanditiis. Voluptas!</p>
+                </div>
+                <div class="top-right-tab ly-hide-large ly-hide-xlarge">
+                    <h1
+                        style="font-size: 40px;font-weight: 400;letter-spacing: 3px;color: #414141;font-family:DM Serif Text;text-align:left;">
+                        Space Redefined
+                    </h1>
+                    <p class="ly-justify ly-large">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dignissimos ipsa eum impedit
+                        expedita veritatis nulla adipisci temporibus perferendis et corporis aut, ad fugiat, harum</p>
+                </div>
+            </div>
+        </div>
+        <div class="ly-image">
+            <img src="/images/interior design/vase/3.png" alt="" width="100%" height="auto">
+        </div>
+    </section>
+    
+    <!--small screen-->
+    <section class="ly-hide-large ly-hide-xlarge ly-hide-medium">
+        <div class="ly-image">
+            <img src="/images/interior design/vase/mob/1.png" alt="" width="100%" height="auto">
+        </div>
+        <div class="box-small ly-padding-top-16">
+            <img src="/images/interior design/vase/mob/2.png" alt="" width="100%" height="auto">
+            <div class="top-bottom-small">
+                <p class="ly-justify ly-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dignissimos ipsa eum impedit
+                    expedita veritatis nulla adipisci temporibus perferendis et corporis aut, ad fugiat, harum
+                    suscipit accusantium sequi blanditiis.!</p>
+            </div>
+        </div>
+        <div class="ly-image ly-padding-top-16">
+            <img src="/images/interior design/vase/mob/3.png" alt="" width="100%" height="auto">
+        </div>
+        <div class="ly-image">
+            <img src="/images/interior design/vase/mob/4.png" alt="" width="100%" height="auto">
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="/bootstrap4/js/bootstrap.min.js"></script>
+    <script src="/js/nav.js"></script>
+    <script src="/js/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+        })
+    </script>
+</body>
+
+</html>

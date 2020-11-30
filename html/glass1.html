@@ -15,26 +15,41 @@
         body {
             background-color: #fff;
         }
-
         .fa-facebook-official,
         .fa-linkedin,
         .fa-instagram {
             font-size: 50px;
             padding: 0 .8rem;
         }
-
         .main-img {
             position: absolute;
             top: 0px;
             left: 0px;
             z-index: 20;
         }
-
         .logo-img {
             position: absolute;
             top: 15px;
-            left: 50%;
+            left: 48%;
             z-index: 21;
+        }
+        .logo-img-small {
+                position: absolute;
+                top: .5rem;
+                right: .7rem;
+                z-index: 21;
+            }
+        .container-glass {
+            position: relative;
+            text-align: left;
+            color: black;
+        }
+        .centered-bottom {
+            position: absolute;
+            top: 87%;
+            left: 43%;
+            width: 80%;
+            transform: translate(-35%, -50%);
         }
     </style>
 </head>
@@ -46,7 +61,7 @@
         <a href="eyewear.html">Eyewear</a>
         <a href="cloths.html">Clothing</a>
         <a href="acessories.html">Acessories</a>
-        <a href="#">Interior Design</a>
+        <a href="interior-design.html">Interior Design</a>
         <br>
         <a href="#">Contact Us</a>
         <a href="#">About Us</a>
@@ -106,6 +121,7 @@
             </section>
         </section>
     </section>
+    <!--medium screen-->
     <section class="ly-hide-large ly-hide-xlarge ly-hide-small">
         <!--landing -->
         <div style="position: relative; left: 0; top: 0;">
@@ -114,23 +130,53 @@
                     class="logo-img" /></a>
         </div>
         <div class="" style="height: 370px;"></div>
-            <div class="ly-padding-top-32">
-                <div class="ly-image">
-                    <img src="/images/eyewear/eyewear 1/2.png" alt="" width="100%" height="auto">
-                </div>
-                <div class="ly-image">
-                    <img src="/images/eyewear/eyewear 1/3.png" alt="" width="100%" height="auto">
-                </div>
-                <div class="ly-image">
-                    <img src="/images/eyewear/eyewear 1/4.png" alt="" width="100%" height="auto">
-                </div>
-                <div class="ly-image">
-                    <img src="/images/eyewear/eyewear 1/5.png" alt="" width="100%" height="auto">
-                </div>
-                <div class="ly-image">
-                    <img src="/images/eyewear/eyewear 1/6.png" alt="" width="100%" height="auto">
+        <div class="ly-padding-top-32">
+            <div class="ly-image">
+                <img src="/images/eyewear/eyewear 1/2.png" alt="" width="100%" height="auto">
+            </div>
+            <div class="ly-image">
+                <img src="/images/eyewear/eyewear 1/3.png" alt="" width="100%" height="auto">
+            </div>
+            <div class="ly-image">
+                <img src="/images/eyewear/eyewear 1/4.png" alt="" width="100%" height="auto">
+            </div>
+            <div class="ly-image">
+                <img src="/images/eyewear/eyewear 1/5.png" alt="" width="100%" height="auto">
+            </div>
+            <div class="ly-image">
+                <img src="/images/eyewear/eyewear 1/6.png" alt="" width="100%" height="auto">
+            </div>
+        </div>
+    </section>
+    <!--small screen-->
+    <section class="ly-hide-large ly-hide-xlarge ly-hide-medium">
+        <!--landing -->
+        <div style="position: relative; left: 0; top: 0;">
+            <img src="/images/eyewear/mob/eyewear 1/landing.png" alt="" width="100%" height="auto" class="main-img">
+            <a href="../index.html"><img src="/images/Vastra .png" alt="" width="60px" height="50px"
+                    class="logo-img-small" /></a>
+        </div>
+        <div class="" style="height: 370px;"></div>
+        <div class="ly-padding-top-32">
+            <div class="container-glass">
+                <img src="/images/eyewear/mob/eyewear 1/front view.png" alt="" width="100%" height="auto">
+                <div class="centered-bottom">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit asperiores nam aliquid saepe
+                        ab architecto possimus exercitationem
+                    </p>
                 </div>
             </div>
+            <div class="ly-image">
+                <img src="/images/eyewear/mob/eyewear 1/cover.png" alt="" width="100%" height="auto">
+            </div>
+            <div class="ly-image">
+                <img src="/images/eyewear/mob/eyewear 1/top view.png" alt="" width="100%" height="auto">
+            </div>
+            <div class="ly-image">
+                <img src="/images/eyewear/mob/eyewear 1/banner.png" alt="" width="100%" height="auto">
+            </div>
+        </div>
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
