@@ -1998,3 +1998,15 @@ a {
   filter: brightness(100%);
   transform: scale(1.1);
 }
+.social{
+  position: fixed;
+  top: 20%;
+  left: 3%;
+  display:block;
+  z-index: 999;
+}
+.social i{
+  font-size: 40px;
+  padding: .5rem 0;
+  color:#000;
+}

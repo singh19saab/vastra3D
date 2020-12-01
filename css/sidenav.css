@@ -37,7 +37,7 @@
 .menu {
   padding-top: 1rem ;
   padding-left: 2.5rem;
-  position: fixed;
+  position: fixed !important;
   z-index: 999;
 }
 .logo {
@@ -62,7 +62,7 @@
   .menu {
     padding-top: .4rem;
     padding-left: .5rem;
-    position: fixed;
+    position: fixed !important;
   }
   .logo {
     text-align: right;
