@@ -2010,3 +2010,15 @@ a {
   padding: .5rem 0;
   color:#000;
 }
+.footer-form{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding:3% 0 3% 39%;
+}
+.footer-form button{
+  color: #000;
+  background-color: #D5C9B7;
+  border-radius: 5px;
+  width: 130px;
+}
