@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vastra 3D</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/bootstrap4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/sidenav.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+        body {
+            background-color: #fff;
+        }
+
+        .fa-facebook-square,
+        .fa-linkedin,
+        .fa-instagram {
+            font-size: 50px;
+            padding: 0 .8rem;
+        }
+
+        .main-img {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: 20;
+        }
+
+        .logo-img {
+            position: absolute;
+            top: 18px;
+            left: 83%;
+            z-index: 21;
+        }
+
+        .logo-img-tab {
+            position: absolute;
+            top: 18px;
+            left: 50%;
+            z-index: 21;
+        }
+
+        .ly-centeredleft {
+            position: absolute;
+            top: 140px;
+            left: 34%;
+            width: 80%;
+            z-index: 25;
+        }
+
+        .ly-centeredleft-big {
+            position: absolute;
+            top: 220px;
+            left: 34%;
+            width: 80%;
+            z-index: 25;
+        }
+
+        .ly-centeredleft-tab {
+            position: absolute;
+            top: 220px;
+            left: 30%;
+            width: 100%;
+            z-index: 25;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="footwear.html">Footwear</a>
+        <a href="eyewear.html">Eyewear</a>
+        <a href="cloths.html">Clothing</a>
+        <a href="acessories.html">Acessories</a>
+        <a href="interior-design.html">Interior Design</a>
+        <br>
+        <a href="contact.html">Contact Us</a>
+        <a href="about.html">About Us</a>
+    </div>
+    <div class="menu">
+        <span style="font-size:30px;cursor:pointer;" onclick="openNav()"><img
+                src="https://img.icons8.com/ios-glyphs/48/000000/squared-menu.png" /></span>
+    </div>
+    <!--xLarge Screen-->
+    <section class="ly-hide-large ly-hide-medium ly-hide-small">
+        <div class="row">
+            <div class="col-xl-7">
+                <div style="position: relative; left: 0; top: 0;">
+                    <img src="/images/contact/desktop contact us.png" alt="" width="100%" height="auto"
+                        class="main-img">
+                    <a href="../index.html"><img src="/images/Vastra .png" alt="" width="70px" height="60px"
+                            class="logo-img" /></a>
+                    <div class="ly-centeredleft-big">
+                        <h1
+                            style="font-size: 90px;font-weight: 400;letter-spacing: 3px;color: #414141;font-family:Inter;text-align: left;">
+                            Get In Touch
+                        </h1>
+                        <div class="row ly-padding-top-64">
+                            <div class="col-xl-1"></div>
+                            <div class="col-xl-2 ly-center">
+                                <img src="/images/contact/at.png" alt="" height="50px" width="50px">
+                            </div>
+                            <div class="col-xl-4 ly-xxlarge" style="padding-top: 1%;">
+                                <p>rahul@vastra3d.com</p>
+                            </div>
+                            <div class="col-xl-5"></div>
+                        </div>
+                        <div class="row ly-padding-top-16">
+                            <div class="col-xl-1"></div>
+                            <div class="col-xl-2 ly-center" style="padding-top: 6%;">
+                                <img src="/images/contact/pin (2).png" alt="" height="50px" width="35px">
+                            </div>
+                            <div class="col-xl-5 ly-xxlarge">
+                                <p>IKP Eden, Kormangala,
+                                    Bengaluru, Karnataka,
+                                    India, 560029.
+                                    Landmark : Opposite Forum Mall
+                                </p>
+                            </div>
+                            <div class="col-xl-4"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-1"></div>
+                            <div class="col-xl-2 ly-center" style="padding-top: 2%;">
+                                <img src="/images/contact/phone-call (1).png" alt="" height="50px" width="50px">
+                            </div>
+                            <div class="col-xl-5 ly-xxlarge" style="padding-top: 1%;">
+                                <p>+91 9591807979, +91 7488717625</p>
+                            </div>
+                            <div class="col-xl-4"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-5" style="padding-right: 5%;padding-top: 10%;">
+                <form>
+                    <div class="form-group ly-padding-16">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" placeholder="Enter Name" id="name">
+                    </div>
+                    <div class="form-group ly-padding-16">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" placeholder="Enter Email" id="mail">
+                    </div>
+                    <div class="form-group ly-padding-16">
+                        <label for="phn">Phone:</label>
+                        <input type="number" class="form-control" placeholder="Enter Phone" id="phn">
+                    </div>
+                    <div class="form-group ly-padding-16">
+                        <label for="msg">Message:</label>
+                        <input type="txt" class="form-control" placeholder="Enter message" id="msg"
+                            style="height: 100px;">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="ly-image"  style="padding-top: 10%;">
+            <img src="/images/contact.png" alt="" width="100%" height="auto">
+        </div>
+        <!--Footer-->
+        <div>
+            <div class="ly-container ly-padding-top-16" style="padding-left: 20%;">
+                <h1
+                    style="font-size: 60px;font-weight: 400;letter-spacing: 1px;color: #D5C9B7;font-family:DM Serif Text;">
+                    Let’s stay in touch
+                </h1>
+            </div>
+            <form action="/" class="footer-form ly-center">
+                <input type="email" id="email" placeholder="Email Address" name="email">
+                <button type="submit">Subscribe</button>
+            </form>
+            <div class="ly-center ly-text-black" style="padding: 16px 0;"><small class="ly-center"><span
+                        style="color: #000;">&copy;</span> Copyright
+                    2020, VASTRA 3D.
+                    All Rights
+                    Reserved. </small></div>
+        </div>
+    </section>
+    <!--Large Screen-->
+    <section class="ly-hide-xlarge ly-hide-medium ly-hide-small">
+        <div class="row">
+            <div class="col-lg-7">
+                <div style="position: relative; left: 0; top: 0;">
+                    <img src="/images/contact/desktop contact us.png" alt="" width="100%" height="auto"
+                        class="main-img">
+                    <a href="../index.html"><img src="/images/Vastra .png" alt="" width="70px" height="60px"
+                            class="logo-img" /></a>
+                    <div class="ly-centeredleft">
+                        <h1
+                            style="font-size: 60px;font-weight: 500;letter-spacing: 3px;color: #414141;font-family:Inter;text-align: left;">
+                            Get In Touch
+                        </h1>
+                        <div class="row ly-padding-top-32">
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-2 ly-center">
+                                <img src="/images/contact/at.png" alt="" height="50px" width="50px">
+                            </div>
+                            <div class="col-lg-4 ly-xxlarge" style="padding-top: 1%;">
+                                <p>rahul@vastra3d.com</p>
+                            </div>
+                            <div class="col-lg-5"></div>
+                        </div>
+                        <div class="row ly-padding-top-16">
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-2 ly-center" style="padding-top: 12%;">
+                                <img src="/images/contact/pin (2).png" alt="" height="50px" width="35px">
+                            </div>
+                            <div class="col-lg-5 ly-xxlarge">
+                                <p>IKP Eden, Kormangala,
+                                    Bengaluru, Karnataka,
+                                    India, 560029.
+                                    Landmark : Opposite Forum Mall
+                                </p>
+                            </div>
+                            <div class="col-lg-4"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-2 ly-center" style="padding-top: 2%;">
+                                <img src="/images/contact/phone-call (1).png" alt="" height="50px" width="50px">
+                            </div>
+                            <div class="col-lg-5 ly-xxlarge">
+                                <p>+91 9591807979, +91 7488717625</p>
+                            </div>
+                            <div class="col-lg-4"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5" style="padding-right: 5%;padding-top: 6%;">
+                <form>
+                    <div class="form-group ly-padding-16">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" placeholder="Enter Name" id="name">
+                    </div>
+                    <div class="form-group ly-padding-16">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" placeholder="Enter Email" id="mail">
+                    </div>
+                    <div class="form-group ly-padding-16">
+                        <label for="phn">Phone:</label>
+                        <input type="number" class="form-control" placeholder="Enter Phone" id="phn">
+                    </div>
+                    <div class="form-group ly-padding-16">
+                        <label for="msg">Message:</label>
+                        <input type="txt" class="form-control" placeholder="Enter message" id="msg"
+                            style="height: 100px;">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="ly-image" style="padding-top:8%;">
+            <img src="/images/contact.png" alt="" width="100%" height="auto">
+        </div>
+        <!--Footer-->
+        <div >
+            <div class="ly-container ly-padding-top-16" style="padding-left: 20%;">
+                <h1
+                    style="font-size: 60px;font-weight: 400;letter-spacing: 1px;color: #D5C9B7;font-family:DM Serif Text;">
+                    Let’s stay in touch
+                </h1>
+            </div>
+            <form action="/" class="footer-form ly-center">
+                <input type="email" id="email" placeholder="Email Address" name="email">
+                <button type="submit">Subscribe</button>
+            </form>
+            <div class="ly-center ly-text-black" style="padding: 16px 0;"><small class="ly-center"><span
+                        style="color: #000;">&copy;</span> Copyright
+                    2020, VASTRA 3D.
+                    All Rights
+                    Reserved. </small></div>
+        </div>
+    </section>
+    <!--Medium Screen-->
+    <section class="ly-hide-xlarge ly-hide-large ly-hide-small">
+        <div style="position: relative; left: 0; top: 0;">
+            <img src="/images/contact/tab portrait with text.png" alt="" width="100%" height="auto" class="main-img">
+            <a href="../index.html"><img src="/images/Vastra .png" alt="" width="70px" height="60px"
+                    class="logo-img-tab" /></a>
+            <div class="ly-centeredleft-tab">
+                <div class="row ly-padding-top-16">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2 ly-center">
+                        <img src="/images/contact/at.png" alt="" height="35px" width="35px">
+                    </div>
+                    <div class="col-md-4 ly-large">
+                        <p>rahul@vastra3d.com</p>
+                    </div>
+                    <div class="col-md-5"></div>
+                </div>
+                <div class="row ly-padding-top-16">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2 ly-center" style="padding-top: 4%;">
+                        <img src="/images/contact/pin (2).png" alt="" height="35px" width="20px">
+                    </div>
+                    <div class="col-md-5 ly-large">
+                        <p>IKP Eden, Kormangala,
+                            Bengaluru, Karnataka,
+                            India, 560029.
+                            Landmark : Opposite Forum Mall
+                        </p>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2 ly-center" style="padding-top: 1%;">
+                        <img src="/images/contact/phone-call (1).png" alt="" height="35px" width="35px">
+                    </div>
+                    <div class="col-md-5 ly-large">
+                        <p>+91 9591807979 ,<br>+91 7488717625</p>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </div>
+        <div class="" style="height: 105vh;"></div>
+        <div style="padding: 4% 6%;">
+            <form>
+                <div class="form-group ly-padding-16">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" placeholder="Enter Name" id="name">
+                </div>
+                <div class="form-group ly-padding-16">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" placeholder="Enter Email" id="mail">
+                </div>
+                <div class="form-group ly-padding-16">
+                    <label for="phn">Phone:</label>
+                    <input type="number" class="form-control" placeholder="Enter Phone" id="phn">
+                </div>
+                <div class="form-group ly-padding-16">
+                    <label for="msg">Message:</label>
+                    <input type="txt" class="form-control" placeholder="Enter message" id="msg"
+                        style="height: 100px;">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <div class="ly-image ly-padding-32">
+            <img src="/images/contact.png" alt="" width="100%" height="auto">
+        </div>
+        <!--Footer-->
+        <div style="padding-top: 2%;">
+            <div class="ly-container ly-padding-top-16" style="padding-left: 20%;">
+                <h1
+                    style="font-size: 40px;font-weight: 400;letter-spacing: 1px;color: #D5C9B7;font-family:DM Serif Text;">
+                    Let’s stay in touch
+                </h1>
+            </div>
+            <form action="/" class="footer-form ly-center">
+                <input type="email" id="email" placeholder="Email Address" name="email">
+                <button type="submit">Subscribe</button>
+            </form>
+            <div class="ly-center ly-text-black" style="padding: 16px 0;"><small class="ly-center"><span
+                        style="color: #000;">&copy;</span> Copyright
+                    2020, VASTRA 3D.
+                    All Rights
+                    Reserved. </small></div>
+        </div>
+    </section>
+    <!--small screen-->
+    <section class="ly-hide-medium ly-hide-xlarge ly-hide-large">
+        <div class="logo">
+            <a href="../index.html"><img src="/images/Vastra .png" alt="" width="70px" height="60px"></a>
+        </div>
+        <div class="ly-image">
+            <img src="/images/contact/mobile.png" alt="" width="100%" height="auto">
+        </div>
+        <div class="" style="padding-left:4%;padding-right: 4%;">
+            <form>
+                <div class="form-group ly-padding-16">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" placeholder="Enter Name" id="name">
+                </div>
+                <div class="form-group ly-padding-16">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" placeholder="Enter Email" id="mail">
+                </div>
+                <div class="form-group ly-padding-16">
+                    <label for="phn">Phone:</label>
+                    <input type="number" class="form-control" placeholder="Enter Phone" id="phn">
+                </div>
+                <div class="form-group ly-padding-16">
+                    <label for="msg">Message:</label>
+                    <input type="txt" class="form-control" placeholder="Enter message" id="msg" style="height: 100px;">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <!--Footer-->
+        <section class="">
+            <div class="ly-container ly-padding-top-32 ly-center ly-text-black">
+                <a href="#"><i class="fa fa-facebook-square"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <div class="ly-center ly-text-black" style="padding: 16px 0;"><small class="ly-center"><span
+                        style="color: #000;">&copy;</span> Copyright
+                    2020, VASTRA 3D.
+                    All Rights
+                    Reserved. </small></div>
+        </section>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="/bootstrap4/js/bootstrap.min.js"></script>
+    <script src="/js/nav.js"></script>
+</body>
+
+</html>
