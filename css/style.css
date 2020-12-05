@@ -1943,25 +1943,25 @@ a {
 }
 .footer-nav {
   text-decoration: none;
-  font-size: 22px;
-  padding: 1rem 6rem 1rem 0rem;
-  float: right;
+  font-size: 28px;
+  text-align: center;
+  padding-top: 30%;
   text-transform: capitalize;
-  color: #ffb300;
+  color: #D5C9B7;
 }
-
-.footer-nav:hover {
-  color: white;
-  text-decoration: none;
+.footer-nav a{
+  padding-left: 2%;
 }
-
+.footer-nav a:hover{
+  color: #000;
+}
 .footer-nav-mob {
   text-decoration: none;
   font-size: 22px;
   padding: 1rem 2rem 1rem 0rem;
-  float: right;
+  text-align: end;
   text-transform: capitalize;
-  color: #ffb300;
+  color: #B0B0B0;
 }
 
 .footer-nav-mob:hover {
@@ -1969,17 +1969,11 @@ a {
   text-decoration: none;
 }
 
-#logo {
-  display: inline-block;
-  margin: 5px;
-  height: 30px;
-  width: auto;
-}
-.text-shadow {
-  text-shadow: 5px 2px #6a3ba8;
-}
-.box-shadow {
-  box-shadow: 10px 10px 5px grey;
+.bgimg-footer {
+  background: url(../images/footer/LOGO\ RIGHT.png) no-repeat ;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  background-size: cover !important;
 }
 .img-hover-zoom {
   overflow: hidden; /* Removing this will break the effects */
@@ -2015,16 +2009,4 @@ a {
   font-size: 40px;
   padding: .5rem 0;
   color:#a9a9a9;
-}
-.footer-form{
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  padding:3% 0 3% 39%;
-}
-.footer-form button{
-  color: #000;
-  background-color: #D5C9B7;
-  border-radius: 5px;
-  width: 130px;
 }
