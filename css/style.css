@@ -613,7 +613,7 @@ a {
     width: 99.99999%;
   }
 }
-@media (min-width: 993px) {
+@media (min-width: 1110px) {
   .ly-col.l1 {
     width: 8.33333%;
   }
@@ -823,7 +823,7 @@ a {
     padding-top: 50px;
   }
 }
-@media (max-width: 1599px) and (min-width: 993px) {
+@media (max-width: 1599px) and (min-width: 1110px) {
   .ly-modal-content {
     width: 900px;
   }
@@ -845,12 +845,12 @@ a {
     display: block !important;
   }
 }
-@media (max-width: 992px) and (min-width: 601px) {
+@media (max-width: 1109px) and (min-width: 601px) {
   .ly-hide-medium {
     display: none !important;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 1109px) {
   .ly-sidebar.ly-collapse {
     display: none;
   }
@@ -1943,14 +1943,14 @@ a {
 }
 .footer-nav {
   text-decoration: none;
-  font-size: 28px;
+  font-size: 26px;
   text-align: center;
   padding-top: 30%;
   text-transform: capitalize;
   color: #D5C9B7;
 }
 .footer-nav a{
-  padding-left: 2%;
+  padding-left: 0%;
 }
 .footer-nav a:hover{
   color: #000;
@@ -1967,13 +1967,6 @@ a {
 .footer-nav-mob:hover {
   color: white;
   text-decoration: none;
-}
-
-.bgimg-footer {
-  background: url(../images/footer/LOGO\ RIGHT.png) no-repeat ;
-  -webkit-background-size: cover !important;
-  -moz-background-size: cover !important;
-  background-size: cover !important;
 }
 .img-hover-zoom {
   overflow: hidden; /* Removing this will break the effects */
